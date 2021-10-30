@@ -1,0 +1,58 @@
+.main-dev {
+  font-size: 19px;
+  color: white;
+
+  text-decoration: none;
+}
+
+.main-dev:hover {
+  background-color: rgb(55, 137, 230);
+  border-radius: 30px;
+  height: 40px;
+}
+@media screen and (max-width: 375px) {
+  .main-dev {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 0%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-dev:hover {
+    background-color: rgb(55, 137, 230);
+    border-radius: 20px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-dev {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 2%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-dev:hover {
+    background-color: rgb(55, 137, 230);
+    border-radius: 20px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-dev {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 10%;
+    margin-left: 0%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-dev:hover {
+    background-color: rgb(55, 137, 230);
+    border-radius: 20px;
+    height: 40px;
+  }
+}

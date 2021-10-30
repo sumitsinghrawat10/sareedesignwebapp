@@ -1,0 +1,88 @@
+body > #root > div {
+  height: 100vh;
+}
+
+.App {
+  height: 100%;
+  min-height: 100% !important;
+}
+
+.image-container {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  padding-top: 100px;
+  height: 100vh;
+}
+.poses-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-container {
+  background-color: linear-gradient(to right, #e684ae, #79cbca, #77a1d3);
+  /* background: #77a1d3; */
+  /* background: -webkit-linear-gradient(to right, #e684ae, #79cbca, #77a1d3); */
+  /* background: linear-gradient(to right, #e684ae, #79cbca, #77a1d3); */
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    background: linear-gradient(to right, #e684ae, #79cbca);
+  }
+  to {
+    background: #eca3c3;
+  }
+}
+
+.buttonClass {
+  font-size: 14px;
+  font-family: Arial;
+  width: 113px;
+  height: 30px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #337fed;
+  font-weight: bold;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: inset -1px 1px 0px -7px #97c4fe;
+  text-shadow: inset 0px 1px 0px #1570cd;
+  background: linear-gradient(#3d94f6, #1e62d0);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#1e62d0, #3d94f6);
+}
+@media screen and (max-width: 375px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+  }
+  .image-one {
+    margin-bottom: 31%;
+    margin-top: -18%;
+  }
+  .buttonClass {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+  }
+  .image-one {
+    margin-bottom: 31%;
+    margin-top: -18%;
+  }
+  .buttonClass {
+    margin-top: 5%;
+  }
+}
